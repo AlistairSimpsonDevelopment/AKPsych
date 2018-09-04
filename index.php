@@ -17,10 +17,12 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="index.css">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" >
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display" >
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" >
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -46,12 +48,15 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+
 <!-- bootstrap js -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"  ></script>
 
+<!-- app js -->
 <script type="text/javascript" src="JS/maps.js"></script>
 <script type="text/javascript" src="JS/hero.js"></script>
 <script type="text/javascript" src="JS/svg.js"></script>
+
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCym_SIY9EI_7UNVL3-FkLLE-yfVQ5VWwY&&callback=initMap" ></script>
 
