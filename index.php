@@ -5,6 +5,7 @@
 <!-- meta -->
 <title>Alex Kasozi Psychology</title>
 <link rel="alternate" hreflang="x-default" href="website name here" />
+<link rel="canonical" href="" >
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Description of the site / page" />
@@ -51,7 +52,6 @@
 <script type="text/javascript" src="JS/maps.js"></script>
 <script type="text/javascript" src="JS/hero.js"></script>
 <script type="text/javascript" src="JS/svg.js"></script>
-<script type="text/javascript" src="JS/modal.js"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCym_SIY9EI_7UNVL3-FkLLE-yfVQ5VWwY&&callback=initMap" ></script>
 
