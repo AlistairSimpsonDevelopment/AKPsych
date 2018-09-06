@@ -42,6 +42,7 @@
 
 <?php include 'Modules/footer.html';?>
 
+<?php include 'Modules/modals.html';?>
 
 <!-- jquery -->
 <script

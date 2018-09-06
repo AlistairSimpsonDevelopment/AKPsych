@@ -143,7 +143,7 @@ a {
 .title {
 	font-family: 'Lato', sans-serif;
 	font-size: 30px;
-	line-height: 150%;
+	line-height: 300%;
 	color: #000;
 	font-weight: 700;
 }
@@ -191,6 +191,9 @@ a {
     margin: auto !important;
 }
 
+.padding-2-percent {
+  padding: 2% 2%;
+}
 .padding-5-percent {
 	padding: 5% 5%;
 }
@@ -203,9 +206,7 @@ a {
 .padding-right-10 {
 	padding-right: 10px;
 }
-.margin-auto {
-	margin: auto;
-}
+
 .valign {
   position: absolute;
   top: 45%;
