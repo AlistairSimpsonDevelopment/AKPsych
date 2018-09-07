@@ -11,7 +11,7 @@ function initMap() {
           position: myLatLng,
           map: map,
 		  animation: google.maps.Animation.DROP,
-          title: 'Hello World!'
+          title: ''
         });
 
 	}

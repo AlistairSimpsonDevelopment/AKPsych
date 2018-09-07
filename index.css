@@ -87,6 +87,7 @@ a {
 #hero {
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('Images/wave_hero.jpg');
     background-size: cover;
+    background-attachment: fixed;
     position: relative;
 }
 
@@ -99,7 +100,7 @@ a {
 }
 
 #approach {
-	background: #8ED2D3;
+	
 }
 
 #contact {
@@ -191,25 +192,9 @@ a {
     margin: auto !important;
 }
 
-.padding-2-percent {
-  padding: 2% 2%;
-}
-.padding-5-percent {
-	padding: 5% 5%;
-}
-.padding-10-percent {
-	padding: 10% 10%;
-}
-.padding-20-percent {
-	padding: 20% 20%;
-}
-.padding-right-10 {
-	padding-right: 10px;
-}
-
 .valign {
   position: absolute;
-  top: 45%;
+  top: 40%;
   left:50%;
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
@@ -281,7 +266,6 @@ a {
 
 .jumbotron {
 	background: none;
-  padding: none!important;
 }
 
 .desktop-hide {
