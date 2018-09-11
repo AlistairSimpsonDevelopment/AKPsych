@@ -38,6 +38,8 @@
 
 <?php include 'Modules/expertise.html'; ?>
 
+<?php include 'Modules/quote.html'; ?>
+
 <?php include 'Modules/contact.html'; ?>
 
 <?php include 'Modules/footer.html';?>
