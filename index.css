@@ -54,9 +54,9 @@ a {
 }
 
 .icon-large {
-  height: 250px;
-  width: 250px;
-
+  position: absolute;
+  font-size: 300px;
+  color: #fff;
 }
 
 /* ---- END SVG ICONS ---- */
@@ -98,6 +98,13 @@ a {
     position: relative;
 }
 
+#hero-2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('Images/wave_hero.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
 #about {
 	background: #fff;
 
@@ -118,6 +125,16 @@ a {
 
 }
 
+#quote {
+background: #8ED2D3;
+z-index: 1;
+}
+#quote h2 {
+  z-index: 1000;
+}
+#quote i {
+  z-index:10
+}
 #contact {
 	background: #fff
 	}
