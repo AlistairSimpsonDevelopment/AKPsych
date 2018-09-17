@@ -13,6 +13,7 @@ a {
   word-wrap: break-word !important;
 }
 
+
 /* ---- SVG ICONS ---- */
 .svg-black {
 	color: black;
@@ -53,10 +54,21 @@ a {
 	width: 150px !important;
 }
 
-.icon-large {
+.icon-large-left {
   position: absolute;
-  font-size: 300px;
-  color: #fff;
+  font-size: 200px;
+  color: #8ED2D3;
+  margin-top: -100px;
+  z-index: -10;
+  left: 15vw;
+}
+.icon-large-right {
+  position: absolute;
+  font-size: 200px;
+  color: #8ED2D3;
+  z-index: -10;
+    margin-top: -125px;
+  right: 15vw;
 }
 
 /* ---- END SVG ICONS ---- */
@@ -96,6 +108,7 @@ a {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+
 }
 
 #hero-2 {
@@ -103,6 +116,7 @@ a {
     background-size: cover;
     background-attachment: fixed;
     position: relative;
+
 }
 
 #about {
@@ -126,15 +140,10 @@ a {
 }
 
 #quote {
-background: #8ED2D3;
+background: transparent;
 z-index: 1;
 }
-#quote h2 {
-  z-index: 1000;
-}
-#quote i {
-  z-index:10
-}
+
 #contact {
 	background: #fff
 	}
@@ -147,15 +156,33 @@ z-index: 1;
 	padding-left: 20px;
 	padding-right: 20px;
 	line-height: 82px;
+}
+
+
+.transform-skew {
+  transform: skewY(-5deg);
+  transform-origin: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.hero-background {
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('Images/wave_hero.jpg');
+  background-size: cover;
+  background-attachment: fixed;
 
 }
+
 
 /* ---- END SECTION BLOCKS ---- */
 
 
 
 /* ---- FONTS AND WEIGHTS ---- */
-
+/*
 .heading {
 	font-family: 'Lato', sans-serif;
 	font-size: 50px;
@@ -200,6 +227,7 @@ z-index: 1;
 	font-size: 11px;
 	line-height: 180%;
 }
+*/
 .copy-white {
 	color: white;
 }
@@ -358,9 +386,3 @@ ol {
 .glyphicon {
 	color: white !important;
 }
-
-
-/* ---- FORM FORMATS ---- */
-
-
-/* ---- END FORM FORMATS ---- */
