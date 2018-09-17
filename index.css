@@ -61,6 +61,7 @@ a {
   margin-top: -100px;
   z-index: -10;
   left: 15vw;
+  opacity: 0.4;
 }
 .icon-large-right {
   position: absolute;
@@ -69,8 +70,34 @@ a {
   z-index: -10;
     margin-top: -125px;
   right: 15vw;
+  opacity: 0.4;
 }
 
+.icon-absolute {
+  height: 1000px;
+  overflow: hidden;
+  fill: #8ED2D3;
+  color: #8ED2D3;
+  opacity: 0.3;
+}
+
+.icon-absolute-ml {
+  transform: rotate(90deg);
+  left: -20vw;
+}
+
+.icon-absolute-tr {
+  transform: rotate(245deg);
+  right: -20vw;
+  margin-top: -500px;
+}
+
+.icon-absolute-br {
+  transform: rotate(300deg);
+  right: -20vw;
+  margin-top: 400px;
+
+}
 /* ---- END SVG ICONS ---- */
 /* ---- COLOURS ---- */
 
@@ -149,7 +176,10 @@ z-index: 1;
 	}
 
 #footer {
-	background: #8ED2D3;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('Images/wave_hero.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 
 
