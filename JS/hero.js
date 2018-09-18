@@ -1,7 +1,7 @@
 jQuery(document).ready(function ($) {
 
 function fullscreen() {
-  jQuery('#hero').css({
+  jQuery('.hero').css({
     width: jQuery(window).width(),
     height: jQuery(window).height() });
 }

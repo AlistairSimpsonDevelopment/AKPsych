@@ -58,22 +58,21 @@ a {
 }
 
 .icon-large-left {
-  position: absolute;
-  font-size: 200px;
-  color: #8ED2D3;
-  margin-top: -100px;
-  z-index: -10;
-  left: 15vw;
-  opacity: 0.4;
+  position: relative;
+  font-size: 150px;
+  color: #fff;/* #8ED2D3;*/
+  right: 30vw;
+  top: 10vh;
+  opacity: 1;
 }
 .icon-large-right {
-  position: absolute;
-  font-size: 200px;
-  color: #8ED2D3;
-  z-index: -10;
-    margin-top: -125px;
-  right: 15vw;
-  opacity: 0.4;
+  position: relative;
+  font-size: 150px;
+  color: #fff;/* #8ED2D3;*/
+  top: -10vh;
+  left: 30vw;
+  z-index: 1;
+  opacity: 1;
 }
 
 .icon-absolute {
@@ -133,7 +132,7 @@ a {
 
 /* ---- SECTION BLOCKS ---- */
 
-#hero {
+.hero {
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('Images/wave_hero.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -170,10 +169,13 @@ a {
 }
 
 #quote {
-background: #8ED2D3;
-
+background:  #8ED2D3;
+z-index: 0;
 }
-
+.quote-text {
+  z-index: 100;
+  position: relative;
+}
 #contact {
 	background: #fff
 	}
@@ -347,6 +349,9 @@ padding: 25px;
   max-width: 450px;
 }
 .block-3:hover::after {
+    opacity: 1;
+}
+.block-2:hover::after {
     opacity: 1;
 }
 

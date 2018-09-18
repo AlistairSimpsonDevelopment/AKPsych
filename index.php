@@ -14,6 +14,7 @@
 
 <!-- css -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="Bootstrap/css/bootstrap.css" >
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="stylesheet" href="index.css">
@@ -54,6 +55,7 @@
 
 <!-- bootstrap js -->
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"  ></script>
+<script src="Bootstrap/js/bootstrap.min.js"  ></script>
 
 <!-- app js -->
 <script type="text/javascript" src="JS/maps.js"></script>
