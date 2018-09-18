@@ -3,7 +3,7 @@
 <head>
 
 <!-- meta -->
-<title>Alex Kasozi Psychology - Working with Organisations</title>
+<title>Alex Kasozi Psychology - Fees & Terms</title>
 <link rel="alternate" hreflang="x-default" href="website name here" />
 <link rel="canonical" href="" >
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,11 +30,9 @@
 
 <?php include 'Modules/navbar.html'; ?>
 
-<?php include 'Modules/hero-organisations.html'; ?>
+<?php include 'Modules/hero-fees.html'; ?>
 
-<?php include 'Modules/approach_org.html'; ?>
-
-<?php include 'Modules/contact.html'; ?>
+<?php include 'Modules/fees.html'; ?>
 
 <?php include 'Modules/footer.html';?>
 

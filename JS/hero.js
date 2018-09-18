@@ -7,7 +7,7 @@ function fullscreen() {
 }
 
 function halfscreen() {
-  jQuery('#hero-2').css({
+  jQuery('.hero-2').css({
     width: jQuery(window).width(),
     height: jQuery(window).height()/1.8 });
 }
