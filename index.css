@@ -61,7 +61,7 @@ a {
   position: relative;
   font-size: 150px;
   color: #fff;/* #8ED2D3;*/
-  right: 30vw;
+  right: 32vw;
   top: 10vh;
   opacity: 1;
 }
@@ -70,7 +70,7 @@ a {
   font-size: 150px;
   color: #fff;/* #8ED2D3;*/
   top: -10vh;
-  left: 30vw;
+  left: 32vw;
   z-index: 1;
   opacity: 1;
 }
@@ -123,8 +123,7 @@ a {
 	position: relative;
 	right: 0;
 	bottom: 0;
-	width: 100%; height: 550px;
-
+	width: 100%; height: 450px;
 }
 
 /* -
@@ -169,7 +168,6 @@ a {
 }
 
 #quote {
-background:  #8ED2D3;
 z-index: 0;
 }
 .quote-text {
@@ -213,16 +211,16 @@ z-index: 0;
 
 
 /* ---- FONTS AND WEIGHTS ---- */
-/*
+
 .heading {
 	font-family: 'Lato', sans-serif;
-	font-size: 50px;
+	font-size: 60px;
 	line-height: 120%;
 	font-weight: bold;
 	color: #000;
 	padding-top: 10px;
 }
-
+/*
 .subheading {
 	font-family: 'Lato', sans-serif;
 	font-size: 50px;
@@ -362,18 +360,22 @@ padding: 25px;
 
 /* ---- END WIDTHS, PADDING AND ALIGNMENT ---- */
 
-/* ---- MODALS ---- */
 
-/* ---- END MODALS ---- */
 
 /* ---- BUTTONS ---- */
 
-.btn-1 {
-
+.btn-primary {
+  outline:none;
+  border: none;
+  background: #fff !important;
+  color:#000 !important;
 }
 
-.btn-1:hover {
-
+.btn-primary:hover {
+outline: none !important;
+background:#8ED2D3 !important;
+color: #fff !important;
+border: none;
 }
 
 .btn-2 {
@@ -430,31 +432,28 @@ ol {
 /* ---- END NAVBAR ---- */
 
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.6);
+/* ---- COLOURS ---- */
+.color-sand {
+  color: #c2b280;
 }
 
-.carousel .item {
-    min-height: 250px;
+.color-blue {
+  color:#8ED2D3;
 }
 
-.carousel .carousel-control {
-    background-image: none;
+.background-sand {
+  background: #c2b280;
 }
 
-.carousel .left:hover {
-    background-image: linear-gradient(to right,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.001) 100%);
+.background-blue {
+  background:#8ED2D3;
 }
 
-.carousel .right:hover {
-    background-image: linear-gradient(to left,rgba(0,0,0,0.3) 0,rgba(0,0,0,0.001) 100%);
+.fill-sand {
+  fill: #c2b280;
 }
 
-.glyphicon {
-	color: white !important;
+.fill-blue {
+  fill:#8ED2D3;
 }
+/* ---- END COLOURS ---- */

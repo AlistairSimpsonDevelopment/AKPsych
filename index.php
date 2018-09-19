@@ -31,7 +31,7 @@
 
 <?php include 'Modules/navbar.html'; ?>
 
-<?php include 'Modules/hero.html'; ?>
+<?php include 'Modules/hero-alt.html'; ?>
 
 <?php include 'Modules/about_me.html'; ?>
 
@@ -40,6 +40,8 @@
 <?php include 'Modules/expertise.html'; ?>
 
 <?php include 'Modules/quote.html'; ?>
+
+<?php include 'Modules/fees.html'; ?>
 
 <?php include 'Modules/contact.html'; ?>
 
