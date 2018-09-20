@@ -17,6 +17,7 @@ a {
 /* ---- SVG ICONS ---- */
 .svg-black {
 	color: black;
+  fill: #000;
 }
 
 .svg-white {
@@ -131,7 +132,7 @@ a {
 
 /* ---- SECTION BLOCKS ---- */
 
-.hero {
+.hero-background {
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('Images/wave_hero.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -139,7 +140,7 @@ a {
 
 }
 
-.hero-2 {
+.hero-background-2 {
     background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('Images/wave_hero.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -434,7 +435,7 @@ ol {
 
 /* ---- COLOURS ---- */
 .color-sand {
-  color: #c2b280;
+  color: 	#efeadd;
 }
 
 .color-blue {
@@ -442,7 +443,7 @@ ol {
 }
 
 .background-sand {
-  background: #c2b280;
+  background: #efeadd;
 }
 
 .background-blue {
@@ -450,7 +451,7 @@ ol {
 }
 
 .fill-sand {
-  fill: #c2b280;
+  fill: #efeadd;
 }
 
 .fill-blue {

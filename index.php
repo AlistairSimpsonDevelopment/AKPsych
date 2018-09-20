@@ -31,7 +31,7 @@
 
 <?php include 'Modules/navbar.html'; ?>
 
-<?php include 'Modules/hero-alt.html'; ?>
+<?php include 'Modules/hero-alt-2.html'; ?>
 
 <?php include 'Modules/about_me.html'; ?>
 
