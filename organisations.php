@@ -21,7 +21,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" >
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display" >
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" >
+<link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" >
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 

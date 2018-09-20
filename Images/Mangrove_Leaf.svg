@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"
-style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 133 150.25" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
+style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 200 200" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd">
 
 <defs>
 
@@ -11,7 +11,7 @@ style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;imag
 
 </defs>
   <g>
-  <path class="fil0" d="M73 58c14,-1 16,-4 17,-15 0,0 -18,-2 -17,15z"/>
+  <path class="fil0" d="M100 58c14,-1 16,-4 17,-15 0,0 -18,-2 -17,15z"/>
 
   </g>
   </svg>
