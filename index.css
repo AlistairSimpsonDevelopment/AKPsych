@@ -221,7 +221,7 @@ z-index: 0;
 }
 
 .hero-background {
-  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('Images/wave_hero.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('Images/wave_hero.jpg');
   background-size: cover;
   background-attachment: fixed;
 
@@ -445,5 +445,9 @@ ol {
 
 .fill-blue {
   fill:#8ED2D3;
+}
+.fill-clear {
+  fill:transparent;
+  background: white;
 }
 /* ---- END COLOURS ---- */
