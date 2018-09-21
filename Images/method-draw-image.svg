@@ -1,7 +1,6 @@
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd">
  <defs>
-  <pattern id="pattern" patternUnits="userSpaceOnUse" width="10" height="10">
-    <image xlink:href="Images/wave_hero.jpg" x="0" y="0" width="10" height="10"> </image> </pattern>
+
  </defs>
  <g>
   <title>background</title>

@@ -36,11 +36,12 @@ a {
 
 .svg-hero {
 fill: black;
-height: 180vh;
-width: 150vw;
-left: 8vw;
-bottom: -50vh;
-
+height: 150vh;
+width: 120vw;
+left: 25vw;
+bottom: 25vh;
+z-index: 0;
+transform: rotate(310deg);
 }
 .icon-navbar {
 	height: 60px;
@@ -220,7 +221,7 @@ z-index: 0;
 }
 
 .hero-background {
-  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('Images/wave_hero.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url('Images/wave_hero.jpg');
   background-size: cover;
   background-attachment: fixed;
 
@@ -235,47 +236,17 @@ z-index: 0;
 
 .heading {
 	font-family: 'Lato', sans-serif;
-	font-size: 50px;
-
-
-}
-/*
-.subheading {
-	font-family: 'Lato', sans-serif;
-	font-size: 50px;
-	line-height: 120%;
-	color: #000;
-	padding-top: 10px;
+	font-size: 2.5em;
 }
 
-.title {
-	font-family: 'Lato', sans-serif;
-	font-size: 30px;
-	line-height: 300%;
-	color: #000;
-	font-weight: 700;
+p {
+  line-height: 150%;
 }
 
-.sub-title {
-	font-family: 'Lato', sans-serif;
-	font-size: 19px;
-	line-height: 150%;
-	color: #000;
-	font-weight: 700;
+h2, h3 {
+  padding-bottom: 20px;
+  line-height: 150%;
 }
-
-.copy {
-	font-family: 'Lato', sans-serif;
-	font-size: 19px;
-	line-height: 180%;
-}
-
-.copy-small {
-	font-family: 'Lato', sans-serif;
-	font-size: 11px;
-	line-height: 180%;
-}
-*/
 .copy-white {
 	color: white;
 }
