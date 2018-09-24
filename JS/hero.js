@@ -3,7 +3,7 @@ jQuery(document).ready(function ($) {
 function fullscreen() {
   jQuery('.hero').css({
     width: jQuery(window).width(),
-    height: jQuery(window).height()*0.85 });
+    height: jQuery(window).height()*0.95 });
 }
 
 function halfscreen() {

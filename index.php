@@ -35,8 +35,7 @@
 
 <?php include 'Modules/navbar.html'; ?>
 
-
-<?php include 'Modules/hero-alt-3.html'; ?>
+<?php include 'Modules/hero.html'; ?>
 
 <?php include 'Modules/about_me.html'; ?>
 
@@ -70,6 +69,7 @@
 <script type="text/javascript" src="JS/maps.js"></script>
 <script type="text/javascript" src="JS/hero.js"></script>
 <script type="text/javascript" src="JS/svg.js"></script>
+<script type="text/javascript" src="JS/smoothScroll.js"></script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCym_SIY9EI_7UNVL3-FkLLE-yfVQ5VWwY&&callback=initMap" ></script>
 
