@@ -257,24 +257,6 @@ h2, h3 {
 /* ---- END FONTS AND WEIGHTS ---- */
 
 
-/* ---- WIDTHS, PADDING AND ALIGNMENT ---- */
-.width-100 {
-	width: 100%;
-    margin: auto !important;
-}
-.width-80 {
-    width: 80% !important;
-    margin: auto !important;
-}
-.width-60 {
-    width: 60%;
-    margin: auto !important;
-}
-.width-40 {
-    width: 40%;
-    margin: auto !important;
-}
-
 .valign {
   position: absolute;
   top: 50%;
@@ -283,21 +265,6 @@ h2, h3 {
   -ms-transform: translate(-50%,-50%);
   -webkit-transform: translate(-50%,-50%);
 
-}
-
-.inline {
-    display: inline;
-}
-
-.block {
-	display: block;
-	margin: auto;
-	width: 100%;
-}
-
-.inline-block {
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .info-block {
@@ -452,3 +419,63 @@ ol {
   background: white;
 }
 /* ---- END COLOURS ---- */
+
+.footer-icon {
+width: 100px;
+}
+
+
+/* desktops */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* laptops */
+@media only screen and (max-width: 992px) {
+
+}
+
+
+/* tablets */
+@media only screen and (max-width: 768px) {
+
+.w-75 {
+    width: 95% !important;
+    margin: auto !important;
+}
+.w-50 {
+    width: 95% !important;;
+    margin: auto !important;
+}
+.w-25 {
+    width: 50% !important;;
+    margin: auto !important;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+}
+
+/* mobiles */
+@media only screen and (max-width: 560px) {
+
+.w-75 {
+    width: 95% !important;
+    margin: auto !important;
+}
+.w-50 {
+    width: 95% !important;;
+    margin: auto !important;
+}
+.w-25 {
+    width: 50% !important;;
+    margin: auto !important;
+}
+
+
+}
+
+/* ---- END MEDIA QUERIES & MOBILE CSS ---- */
