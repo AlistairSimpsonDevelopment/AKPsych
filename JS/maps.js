@@ -11,6 +11,7 @@ function initMap() {
           position: myLatLng,
           map: map,
 		  animation: google.maps.Animation.DROP,
+			animation-delay: 500ms;
           title: ''
         });
 

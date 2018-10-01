@@ -307,7 +307,9 @@ h2, h3 {
 
 .block-3 {
   width: 100%;
-  max-width: 325px;
+  max-width: 300px;
+  min-width: 300px;
+  margin: 10px !important;
 }
 .block-2 {
   width: 100%;
