@@ -4,12 +4,13 @@
 
 <!-- meta -->
 <title>Alex Kasozi Psychology</title>
-<link rel="alternate" hreflang="x-default" href="website name here" />
+<link rel="alternate" hreflang="x-default" href="website name" />
 <link rel="canonical" href="" >
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="description" content="Description of the site / page" />
-<meta name="keywords" content="Keywords to optimise for " />
+<meta charset="UTF-8">
+<meta name="description" content="Dr Alexandra Kasozi is a counselling pyschologist based in South West London, providing counselling, coaching and psychotherapy to individuals and organisations." />
+<meta name="keywords" content="Counselling, psychologist, London, Tooting, counsellor, psychology, psychotherapy, doctor, coaching, " />
 <meta name="robots" content="index, follow" />
 
 <!-- css -->
