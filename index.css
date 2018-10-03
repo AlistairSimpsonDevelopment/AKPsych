@@ -88,7 +88,7 @@ transform: rotate(310deg);
   position: relative;
   font-size: 150px;
   color: #fff;/* #8ED2D3;*/
-  top: -10vh;
+  top: -15vh;
   left: 32vw;
   z-index: 1;
   opacity: 1;
@@ -157,7 +157,6 @@ transform: rotate(310deg);
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-
 }
 
 .hero-background-2 {
@@ -208,7 +207,9 @@ z-index: 0;
 }
 
 
-
+.z-100 {
+  z-index: 100;
+}
 
 .transform-skew-left {
   transform: skewY(-5deg);
@@ -454,11 +455,19 @@ width: 100px;
 /* tablets */
 @media only screen and (max-width: 768px) {
 
+  .hero-background {
+      background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('Images/wave_hero.jpg');
+      background-size: cover;
+      position: relative;
+      background-attachment:scroll;
+  }
+
   .heading {
   	font-family: 'Lato', sans-serif;
   	font-size: 1.75em;
   }
-.subheading {
+
+  .subheading {
   font-size: 1.25em !important;
 }
 .w-75 {
@@ -481,8 +490,8 @@ width: 100px;
 }
 .icon-large-right {
   font-size: 100px;
-  top: -10vh;
-  left: 25vw;
+  top: -20vh;
+  left: 30vw;
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
@@ -492,6 +501,12 @@ width: 100px;
 /* mobiles */
 @media only screen and (max-width: 560px) {
 
+  .hero-background {
+      background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url('Images/wave_hero.jpg');
+      background-size: cover;
+      position: relative;
+      background-attachment:scroll;
+  }
   .heading {
   	font-family: 'Lato', sans-serif;
   	font-size: 1.5em;
@@ -521,7 +536,7 @@ width: 100px;
 .icon-large-right {
   font-size: 100px;
   top: -10vh;
-  left: 25vw;
+  left: 30vw;
 }
 
 }
