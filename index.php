@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta charset="UTF-8">
-<meta name="description" content="Dr Alexandra Kasozi is a counselling pyschologist based in South West London, providing counselling, coaching and psychotherapy to individuals and organisations." />
+<meta name="description" content="Dr Alexandra Kasozi is a Counselling Psychologist based in London, providing counselling, coaching and psychotherapy to individuals and organisations." />
 <meta name="keywords" content="Counselling, psychologist, London, Tooting, counsellor, psychology, psychotherapy, doctor, coaching, " />
 <meta name="robots" content="index, follow" />
 
@@ -31,21 +31,22 @@
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" >
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-<link rel="apple-touch-icon" sizes="57x57" href="images/favicons//apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="images/favicons//apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="images/favicons//apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="images/favicons//apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="images/favicons//apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="images/favicons//apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="images/favicons//apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="images/favicons//apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="images/favicons//apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="images/favicons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicons//favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="images/favicons//favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicons//favicon-16x16.png">
-<link rel="manifest" href="images/favicons//manifest.json">
+<link rel="icon" href="Images/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" sizes="57x57" href="Images/favicons//apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="Images/favicons//apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="Images/favicons//apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="Images/favicons//apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="Images/favicons//apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="Images/favicons//apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="Images/favicons//apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="Images/favicons//apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="Images/favicons//apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="Images/favicons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="Images/favicons//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="Images/favicons//favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="Images/favicons//favicon-16x16.png">
+<link rel="manifest" href="Images/favicons//manifest.json">
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="msapplication-TileImage" content="images/favicons//ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
