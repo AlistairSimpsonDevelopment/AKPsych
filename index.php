@@ -4,15 +4,14 @@
 
 <!-- meta -->
 <title>Alexandra Kasozi Psychology</title>
-<link rel="alternate" hreflang="x-default" href="website name" />
-<link rel="canonical" href="" >
+<link rel="alternate" hreflang="x-default" href="https://www.alexandrakasozi.co.uk" />
+<link rel="canonical" href="https://www.alexandrakasozi.co.uk" >
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta charset="UTF-8">
 <meta name="description" content="Dr Alexandra Kasozi is a Counselling Psychologist based in London, providing counselling, coaching and psychotherapy to individuals and organisations." />
-<meta name="keywords" content="Counselling, psychologist, London, Tooting, counsellor, psychology, psychotherapy, doctor, coaching, " />
+<meta name="keywords" content="Counselling, psychologist, Counselling Psychologist in London, counsellor, psychology, psychotherapy, CBT, integrative therapy, cognitive behavioural therapy, psychodynamic therapy, coaching, The Awareness Centre, anxiety, depression, sadness, trauma, PTSD, " />
 <meta name="robots" content="index, follow" />
-
 
 <!-- fonts -->
 <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
@@ -24,10 +23,7 @@
 <link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" >
-<link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-  <!-- or -->
+
   <link rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" >
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

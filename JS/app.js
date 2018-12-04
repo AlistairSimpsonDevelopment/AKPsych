@@ -2,7 +2,35 @@
 jQuery(document).ready(function(e){function i(){jQuery(".hero").css({width:jQuery(window).width(),height:.98*jQuery(window).height()})}function h(){jQuery(".hero-2").css({width:jQuery(window).width(),height:jQuery(window).height()/1.8})}i(),h(),jQuery(window).resize(function(){i(),h()})});
 
 //google maps
-function initMap(){var n={lat:51.43421,lng:-.16276},o=new google.maps.Map(document.getElementById("map"),{center:n,zoom:14});new google.maps.Marker({position:n,map:o,animation:google.maps.Animation.DROP,title:""})}
+//function initMap(){var n={lat:51.43421,lng:-.16276},o=new google.maps.Map(document.getElementById("map"),{center:n,zoom:14});new google.maps.Marker({position:n,map:o,animation:google.maps.Animation.DROP,title:""})}
+
+
+function initMap() {
+  var latlng;
+  var maps = {"Tooting": {'lat': 51.43421,'lng': -.16276},
+      "Holborn": {'lat': 51.51809,'lng': -0.1280}
+    };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: 51.4925427, lng: -0.1228573},
+      zoom: 10
+    });
+    for (var i=0; i<maps.length; i++ ) {
+
+      var lat = maps[i].lat;
+      var lng = maps[i].lng;
+      var latlng = new google.maps.LatLng(lat, lng);
+
+      var marker = new google.maps.Marker( {
+        position: latlng,
+        map: map,
+        animation: google.maps.Animation.DROP,
+        title: maps[i]
+      });
+
+  }
+
+}
+
 
 // SmoothScroll
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
