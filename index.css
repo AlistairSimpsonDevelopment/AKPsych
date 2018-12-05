@@ -425,11 +425,21 @@ ol {
 .footer-icon {
 width: 100px;
 }
+#image-alex {
+height: auto;
+width: 100%;
+padding: 2em;
 
+}
 
 /* desktops */
 @media only screen and (min-width: 992px) {
+  #image-alex {
+  height: auto;
+  width: 100%;
+  padding: 1em;
 
+  }
 
 }
 
@@ -446,8 +456,9 @@ width: 100px;
 @media only screen and (max-width: 768px) {
 
 #image-alex {
-  max-width: 250px;
-  max-height: 250px;
+height: auto;
+width: 100%;
+padding: 1em;
 
 }
   .hero-background {
@@ -504,11 +515,6 @@ width: 100px;
 /* mobiles */
 @media only screen and (max-width: 560px) {
 
-  #image-alex {
-    max-width: 250px;
-    max-height: 250px;
-
-  }
 
   .hero-background {
       background-attachment:scroll;
